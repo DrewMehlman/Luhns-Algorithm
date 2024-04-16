@@ -8,9 +8,11 @@ namespace Luhns_Algorithm
 {
     internal class Class1
     {
-        public class ValidateCard(String cardNumber)
+        public class ValidateCard
         {
-            cardNumber = "4532835088732449";
+            ValidateCard(String cardNumber)
+            {
+                cardNumber = "4532835088732449";
+            }
         }
     }
-}
